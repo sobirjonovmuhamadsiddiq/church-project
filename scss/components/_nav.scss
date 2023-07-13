@@ -2,6 +2,20 @@
   margin-right: auto;
 }
 
+.footer__sitenav {
+  .sitenav__list {
+    flex-direction: column;
+  }
+  .sitenav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 2.4rem;
+  }
+ .sitenav__link {
+  opacity: 0.78;
+    font-size: 1.2rem;
+  }
+}
+
 .sitenav {
   &__list {
     display: flex;
