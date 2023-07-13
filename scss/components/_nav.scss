@@ -1,0 +1,18 @@
+.header__sitenav {
+  margin-right: auto;
+}
+
+.sitenav {
+  &__list {
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: 4.8rem;
+  }
+  &__link {
+    white-space: nowrap;
+    color: $white;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+}

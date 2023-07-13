@@ -1,0 +1,19 @@
+.header__logo {
+  margin-right: 13rem;
+}
+
+.logo {
+  display: flex;
+  flex-shrink: 0;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+  &__img {
+    width: 13.2rem;
+    height: 2.7rem;
+    object-fit: contain;
+  }
+}

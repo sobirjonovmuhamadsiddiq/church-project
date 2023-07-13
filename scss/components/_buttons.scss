@@ -1,0 +1,31 @@
+.button {
+  text-align: center;
+  padding: 2.4rem 6.4rem;
+  white-space: nowrap;
+  border-radius: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  &--green {
+    background-color: $primary;
+    color: #1c1d28;
+    &:hover {
+      background-color: #f2c79b;
+    }
+    &:active {
+      opacity: 0.6;
+    }
+  }
+  &--secondary {
+    background-color: $black;
+    color: &primary;
+    &:hover {
+      color: $white;
+    }
+  }
+  &--nav {
+    padding: 2rem 4.8rem;
+    &:hover {
+      background-color: #f2c79b;
+    }
+  }
+}
