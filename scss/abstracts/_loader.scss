@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $dark-blue;
+  background-color: $black;
   z-index: 999;
   transition: opacity 0.4s ease;
 }
@@ -22,9 +22,9 @@
   height: 10px;
   border-radius: 50%;
   display: block;
-  margin:15px auto;
+  margin: 15px auto;
   position: relative;
-  color: $green;
+  color: $primary;
   left: -100px;
   box-sizing: border-box;
   animation: shadowRolling 2s linear infinite;
@@ -32,30 +32,30 @@
 
 @keyframes shadowRolling {
   0% {
-    box-shadow: 0px 0 $dark-blue, 0px 0 $dark-blue, 0px 0 $dark-blue, 0px 0 $dark-blue;
+    box-shadow: 0px 0 $black, 0px 0 $black, 0px 0 $black, 0px 0 $black;
   }
   12% {
-    box-shadow: 100px 0 $green, 0px 0 $dark-blue, 0px 0 $dark-blue, 0px 0 $dark-blue;
+    box-shadow: 100px 0 $primary, 0px 0 $black, 0px 0 $black, 0px 0 $black;
   }
   25% {
-    box-shadow: 110px 0 $green, 100px 0 $green, 0px 0 $dark-blue, 0px 0 $dark-blue;
+    box-shadow: 110px 0 $primary, 100px 0 $primary, 0px 0 $black, 0px 0 $black;
   }
   36% {
-    box-shadow: 120px 0 $green, 110px 0 $green, 100px 0 $green, 0px 0 $dark-blue;
+    box-shadow: 120px 0 $primary, 110px 0 $primary, 100px 0 $primary, 0px 0 $black;
   }
   50% {
-    box-shadow: 130px 0 $green, 120px 0 $green, 110px 0 $green, 100px 0 $green;
+    box-shadow: 130px 0 $primary, 120px 0 $primary, 110px 0 $primary, 100px 0 $primary;
   }
   62% {
-    box-shadow: 200px 0 $dark-blue, 130px 0 $green, 120px 0 $green, 110px 0 $green;
+    box-shadow: 200px 0 $black, 130px 0 $primary, 120px 0 $primary, 110px 0 $primary;
   }
   75% {
-    box-shadow: 200px 0 $dark-blue, 200px 0 $dark-blue, 130px 0 $green, 120px 0 $green;
+    box-shadow: 200px 0 $black, 200px 0 $black, 130px 0 $primary, 120px 0 $primary;
   }
   87% {
-    box-shadow: 200px 0 $dark-blue, 200px 0 $dark-blue, 200px 0 $dark-blue, 130px 0 $green;
+    box-shadow: 200px 0 $black, 200px 0 $black, 200px 0 $black, 130px 0 $primary;
   }
   100% {
-    box-shadow: 200px 0 $dark-blue, 200px 0 $dark-blue, 200px 0 $dark-blue, 200px 0 $dark-blue;
+    box-shadow: 200px 0 $black, 200px 0 $black, 200px 0 $black, 200px 0 $black;
   }
 }

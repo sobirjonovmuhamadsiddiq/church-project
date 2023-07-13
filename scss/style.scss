@@ -1,12 +1,22 @@
 @import './abstracts/variables';
 @import './abstracts/mixin';
+@import './abstracts/loader';
+
 @import './vendors/normalize';
 @import './base/resets';
 @import './base/typography';
+
 @import './components/buttons';
+
 @import './layout/forms';
 @import './layout/header';
 @import './layout/footer';
+
+/* PAGES */
 @import './pages/home';
-@import './pages/about';
+@import './pages/about-us';
 @import './pages/contact';
+@import './pages/sermons';
+@import './pages/sermon-event';
+@import './pages/blog';
+@import './pages/blog-post';
