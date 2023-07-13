@@ -1,13 +1,14 @@
-@import './abstracts/variables';
-@import './abstracts/mixin';
-@import './abstracts/loader';
-
 @import './vendors/normalize';
-@import './base/resets';
+@import './abstracts/variables';
 @import './base/typography';
+@import './abstracts/loader';
+@import './abstracts/mixin';
+
+@import './base/resets';
 
 @import './components/buttons';
 
+/* LAYOUT */
 @import './layout/forms';
 @import './layout/header';
 @import './layout/footer';
