@@ -1,0 +1,14 @@
+.header {
+  background-color: #0d0d0d;
+  *:focus {
+    outline-color: $white;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+}
+@import '../components/logo';
+@import '../components/nav';
